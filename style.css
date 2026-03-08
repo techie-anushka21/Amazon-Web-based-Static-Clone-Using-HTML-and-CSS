@@ -1,0 +1,687 @@
+/*styling of the Clone Project*/
+
+*{                              /*universal selector for margin and font size*/
+    margin:0;
+    font-family: Arial;
+}
+
+/*Navigation Bar starts here*/
+.navbar{                        /*Navigation bar (navbar) properties*/
+    height:3.75rem;
+    width:100%;
+    background-color: #0F1111;
+    color:white;
+    display:flex;
+}
+
+/*Amazon logo segment starts here*/
+.logo{                          /*Amazon logo properties*/
+    background-image:url("logo.jpeg");
+    height:auto;
+    width:7.5rem;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-left:10px;
+    margin-top:15px;
+    bottom:20px;
+    flex-shrink: 0;
+}
+.border{                        /*border properties for logo*/
+    border:0.125rem solid transparent;
+    height:3.125rem;
+    width:6.25rem;
+    border-radius:0.125rem;
+}
+.border:hover{                  /*border properties upon hovering on the logo*/
+    border:0.0625rem solid white;
+}
+/*Amazon logo segment ends here*/
+
+/*Delivery section starts here*/
+.nav-deliver{                   /*delivery section properties*/
+    margin:15px 2px 5px 11px;
+}
+.location{
+    display:flex;
+    align-items: center;
+}
+#a1{                            /*"delivery to" text and size properties*/
+    color:#CCCCCC;
+    font-size: 0.6875rem;
+    margin-left:20px;
+}
+#a2{                            /*"location" text and size properties*/
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:0.875rem;
+}
+.border2:hover{                 /*border properties upon hovering on the delivery section*/
+    border:1px solid white;
+    height:40px;
+    width:75px;
+    border-radius:2px;
+}
+/*Delivery section ends here*/
+
+/*Search Box segment starts here*/
+.nav-search{                    /*search box properties*/
+    padding:10px 4px 10px 10px;
+    display:flex;
+}
+#searchBar{                     /*search bar properties*/
+    height:36.8px;
+    width:600px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border:none;
+    margin-top:0.5px;
+}
+#all{                           /*dropdown properties*/
+    height:39px;
+    width:50px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    background-color: #E6E6E6;
+    border:none;
+    margin-top:0.5px;
+}
+#all:hover{                    /*dropdown properties upon hovering*/
+    background-color:#CCCCCC;
+}
+#dropdown{                     /*dropdown-menu properties*/
+    padding:0px 10px 0px 5px;
+    margin-left:5px;
+    display:inline-flex;
+}
+.searchIcon{                   /*search icon properties*/
+    display:inline-flex;
+    text-align:center;
+    font-size:1.25rem;
+    height:39px;
+    width:44px;
+    background-color:#EBBA34;
+    margin-top:0.5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    color:#0F1111;
+    top:10px;
+    justify-content:center;
+    align-items:center;
+}
+.searchIcon:hover{             /*search icon properties upon hovering*/
+    background-color: #EB9F34;
+}
+/*Search Box segment ends here*/
+
+/*Language segment starts here*/
+.language{                     /*language option- Properties*/
+    display:inline-flex;
+    margin:10px 5px 0px 5px;
+}
+.border3{                      /*language option- Border Properties*/
+    margin:0px 1px;
+    padding:0px 6px 5px 7px;
+    height:40px;
+    border-radius:2px;
+}
+.language:hover{               /*language option- Border Properties upon hovering on it*/
+    border:1px solid white;
+}
+#en{                           /*EN properties (language)*/
+    font-size:0.875rem;
+    font-weight:bold;
+    margin-top:12px;
+}
+/*Language segment ends here*/
+
+/*Sign in, accounts, & lists segment starts here*/
+#msg{                          /*Hello message- Text properties*/
+    font-size:0.75rem;
+}
+#lists{                        /*Accounts & Lists- Text properties*/
+    font-size:0.875rem;
+    font-weight:bold;
+}
+.border4{                      /*Sign in- Border properties*/
+    margin:0px 1px;
+    padding:0px 6px 5px 7px;
+    height:40px;
+    border-radius:2px;
+}
+.sign_in:hover{                /*Sign in- Properties upon hovering*/
+    border:1px solid white;
+}
+/*Sign in, accounts, & lists segment ends here*/
+
+/*Returns & Orders- Text Properties starts here*/
+#returns{                      /*Returns- Text properties*/
+    font-size:0.75rem;
+}
+#orders{                       /*Orders- Text properties*/
+    font-size:0.875rem;
+    font-weight:bold;
+}
+.border5{                      /*border properties*/
+    margin:0px 1px;
+    padding:0px 6px 5px 7px;
+    height:40px;
+    border-radius:2px;
+}
+.return_order:hover{           /*Border properties- Upon hovering*/
+    border:1px solid white;
+}
+/*Returns & Orders- Text Properties ends here*/
+
+/*Cart- Icon & Text Properties starts here*/
+.items{
+    display:inline-flex;
+    margin:0px 5px 0px 5px;
+}
+#cart{                         /*Cart icon- Properties*/
+    font-size:1.875rem;
+}
+#text_cart{                    /*text properties of Cart*/
+    font-size:0.875rem;
+    font-weight:bold;
+    margin-top:14px;
+}
+.border6{                      /*Cart section- Border Properties*/
+    margin:0px 1px;
+    padding:0px 6px 5px 7px;
+    height:40px;
+    border-radius:2px;
+}
+.items:hover{                  /*Cart section- Border Properties upon hovering the section*/
+    border:1px solid #ffffff;
+}
+/*Cart- Icon & Text Properties ends here*/
+/*Navigation Bar ends here*/
+
+/*Main Panel segment starts here*/
+#main_panel{                   /*Main panel's div's- Properties*/
+    background-color: #222F3D;
+    height: 39px;
+    display: flex;
+}
+#menu{                         /*Menu icon- Properties*/
+    width:25px;
+    height:20px;
+    align-items: center;
+}
+#all2{                         /*"All" (beside menu)- Text properties*/
+    font-weight: bold;
+    font-size:0.875rem;
+}
+#options{                      /*Main panel's options properties*/
+    width:45%;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size:0.875rem;
+}
+#empty-div{                    /*Main panel's empty div properties (immediately after options*/
+    background-color: #222F3D;
+    height: 39px;
+}
+.panel{                        /*Menu panel*/
+    display:flex;
+    color:white;
+    align-items:center;
+    padding:9px 10px;
+}
+.panel:hover{                  /*Menu panel- upon hovering*/
+    height:5px;
+    width:35px;
+    border:1px solid white;
+    border-radius:2px;
+}
+/*Main Panel segment ends here*/
+
+/*Hero Section starts here*/
+.hero_section{                 /*Hero Section- Proprties*/
+    background-image: url("hero_image.jpg");    /*hero image link*/
+    height:332.5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+}
+#description{                  /*Description Box Properties*/
+    background-color:#F5F6F6;
+    height:40px;
+    width:1220px;
+    font-size:0.875rem;
+    display:flex;
+    align-items: center;     
+    text-align:center;
+    margin-top: 270px; 
+}
+a{                             /*Description Box- Link Properties*/
+    color:#2162A1;
+}
+a:hover{                       /*Description Box- Link Properties upon hovering on it*/
+    color: midnightblue;
+    text-decoration-line: underline;
+}
+/*Hero Section ends here*/
+
+/*Shop Section starts here*/
+.shop-section1{                  /*1st row of Shop Section*/
+    width:986;
+    height:900px;
+    background-color:#E2E7E6;
+    display: flex;
+    justify-content:space-evenly;
+}
+#box1{                           /*box 1- Adorable Watches (box properties)*/
+    width:280px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#watches{                        /*box 1- Adorable Watches (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#watches-pic{                    /*box 1- Adorable Watches (image properties)*/
+    background-image: url("watches.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#explore{                        /*"Explore more" link properties- for all the items*/
+    font-size:0.875rem;
+    color:#2162A1;
+    margin-left: 18px;
+    margin-top:12px;
+    text-decoration-line: none;
+}
+#explore:hover{                  /*"Explore more" link properties (upon hovering)*/
+    color:midnightblue;
+}
+#box2{                           /*box 2- "Branded beauty items" (box properties)*/
+    width:291px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#beauty_products{               /*box 2- "Branded beauty items" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#beauty-products-pic{           /*box 2- "Branded beauty items" (image properties)*/
+    background-image: url("beauty_products.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#box3{                          /*box 3- "Home decor items" (box properties)*/
+    width:291px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#home_decor{                    /*box 3- "Home decor items" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#home-decor-pic{                /*box 3- "Home decor items" (image properties)*/
+    background-image: url("home-decor.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:253px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#box4{                          /*box 4- "Elevate your style" (box properties)*/
+    width:291px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#dresses{                       /*box 4- "Elevate your style" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#dress-pic{                     /*box 4- "Elevate your style" (image properties)*/
+    background-image: url("dress.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#space{                         /*space div's properties (for spacing between the items)*/
+    height:20px;
+    width:100%;
+    background-color: #E2E7E6;
+    margin-top:-504.55px;
+}
+.shop-section2{                 /*2nd row of Shop Section*/
+    width:100%;
+    height:450px;
+    background-color:#E2E7E6;
+    display: flex;
+    justify-content:space-evenly;
+}
+#box5{                          /*box 5- "Upgrade your kitchen" (box properties)*/
+    width:280px;
+    height:395px;
+    background-color:white;  
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#kitchen{                       /*box 5- "Upgrade your kitchen" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#kitchen-pic{                   /*box 5- "Upgrade your kitchen" (image properties)*/
+    background-image: url("kitchen.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#box6{                          /*box 6- "Affordable stationaries" (box properties)*/
+    width:288px;
+    height:395px;
+    background-color:white;  
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#stationeries{                  /*box 6- "Affordable stationaries" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#stationeries-pic{              /*box 6- "Affordable stationaries" (image properties)*/
+    background-image: url("stationeries.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#box7{                          /*box 7- "Pet Supplies & Care" (box properties)*/
+    width:288px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
+#pets{                          /*box 7- "Pet Supplies & Care" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#pet-supply-pic{                /*box 7- "Pet Supplies & Care" (image properties)*/
+    background-image: url("pet-supply.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+#box8{                          /*box 8- "Tools you can trust" (box properties)*/
+    width:288px;
+    height:395px;
+    background-color:white;
+    font-size:0.9375rem;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+    padding-right:4px;
+}
+#tools{                         /*box 8- "Tools you can trust" (heading properties)*/
+    background-color: transparent;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+    margin-left:18px;
+}
+#tools-pic{                     /*box 8- "Tools you can trust" (image properties)*/
+    background-image: url("tools.jpg");    /*image link*/
+    background-size: cover;
+    background-position: center;
+    height:280px;
+    flex-shrink:0;
+    margin-left:18px;
+    margin-right:18px;
+}
+/*Shop Section ends here*/
+
+#empty-area{                    /*Empty Area for Spacing*/
+    height:40px;
+    background-color: white;
+}
+#si{                            /*Personalized Recommendations*/
+    text-align: center;
+    padding-bottom:10px;
+}
+#sign-in{                       /*Sign-in button- Text Properties*/
+    text-align:center;
+}
+#si2{                           /*Sign In link- Properties*/
+    color:#0F1111;
+    text-align:center;
+}
+#si2:hover{                     /*Sign In link- Properties upon hovering on it*/
+    color:black;
+    text-decoration-line: none;
+}
+button{                         /*Sign-in button (on the bottom of the page)- Properties*/
+    text-decoration-line: none;
+    padding:5px 11px;
+    width:155px;
+    height:30px;
+    background-color: #FFCE12;
+    border-radius: 30px;
+    border-style:none;
+}
+button:hover{                   /*Sign-in button (bottom)- Properties upon hovering on it*/
+    background-color:#F8BD19;
+}
+
+/*New customer peoperties starts here*/
+#new{                           /*New Customer message text properties*/
+    font-size:0.78125rem;
+    padding-bottom:20px;
+}
+#sh{                            /*New Customer link properties*/
+    color:#2162A1;
+    text-decoration-line: underline;
+}
+#sh:hover{                      /*New Customer link properties upon hovering*/
+    color:#222F3D;
+}
+/*New customer peoperties ends here*/
+
+#empty-area2{                   /*Empty Area for Spacing*/
+    height:25px;
+    background-color: white;
+}
+#back-to-top{                   /*Back to Top (div) properties*/
+    color:white;
+    background-color: #37475A;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.875rem;
+}
+#back-to-top:hover{             /*Back to Top (div) properties upon hovering*/
+    background-color:#485769;
+}
+
+/*Footer Panel segment starts here*/
+#list1{                         /*"Get to Know Us" Section*/
+    height: 290px;
+    width:200px;
+    padding:0px 10px;
+}
+#list2{                         /*"Amazon Payment Products" Section*/
+    height: 290px;
+    width:200px;
+    padding:0px 10px;
+}
+#list3{                         /*"Let Us Help You" Section*/
+    height: 290px;
+    width:200px;
+    padding:0px 10px;
+}
+ol{                             /*Ordered list properties for all 3 section's listing*/
+    list-style-type: none;
+}
+h3{                             /*Sections Names' Properties*/
+    color:white;
+    margin-top: 40px;
+}
+.listing{                       /*Sections' list items' properties*/
+    color: #DDDDDD;
+    font-size:0.875rem;
+}
+.listing:hover{                 /*Sections' list items' properties upon hovering*/
+    color: #DDDDDD;
+    text-decoration-line: underline;
+}
+.space{                         /*for spacing between the 3 sections*/
+    height:290px;
+    width:200px;
+}
+#footer-panel{                  /*Footer Panel's Properties*/
+    background-color:#232F3E;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+}
+#c-space{                       /*for spacing between the 3 sections*/
+    width:10px;
+}
+#c-space2{                      /*for spacing between the 3 sections*/
+    width:55px;
+}
+/*Footer Panel segment ends here*/
+
+/*Logo Panel segment starts here*/
+#logo-panel{                    /*Logo Panel Properties*/
+    height: 70px;
+    background-color:#232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom-logo{                   /*Amazon logo (on the bottom)- Properties*/
+    background-image:url("amazon_logo.jpeg");    /*image link*/
+    height:60px;
+    width:120px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-left:10px;
+    bottom:20px;
+    flex-shrink: 0;
+}
+/*Logo Panel segment ends here*/
+
+/*Ending Panel segment starts here*/
+#end-panel{                     /*End panel (including other pages' links)- Properties*/
+    height: 80px;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page{                          /*End panel links'- Properties*/
+    color:#DDDDDD;
+    font-size:0.75rem;
+    padding: 5px;
+}
+.page:hover{                    /*End panel links'- Properties upon hovering*/
+    color:#DDDDDD;
+}
+#copyrights{                    /*Copyrights- icon & text properties*/
+    color:#DDDDDD;
+    font-size:0.75rem;
+    padding: 5px;
+}
+/*Ending Panel segment ends here*/
+
+@media (max-width: 768px)
+{
+    .shop-section1{
+        width: 45%;
+    }
+    #searchBar{
+        width: 80%;
+    }
+}
+@media (max-width: 480px)
+{
+    .shop-section1{
+        width: 90%;
+    }
+    #searchBar{
+        width: 90%;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        font-size: 0.75rem;
+    }
+}
+/*End of Clone Project's Styling*/
