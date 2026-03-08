@@ -17,4 +17,4 @@ Points to note:-
 <br><br>
 7. The current goal is to make the website Responsive.
 <br><br>
-![Amazon Static Clone Project](https://github.com/user-attachments/assets/3fdee99f-681f-4529-b483-d49232f76591)
+![Amazon Static Clone Project](https://github.com/user-attachments/assets/0dda1494-5186-414f-b903-6749465dbbe4)
