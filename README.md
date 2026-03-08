@@ -1,4 +1,4 @@
-# Web-based-Static-Clone-Using-HTML-CSS
+# Amazon-Web-based-Static-Clone-Using-HTML-and-CSS
 This is an Amazon web-based clone which is currently static (made with HTML+CSS only).
 <br>
 Points to note:-
