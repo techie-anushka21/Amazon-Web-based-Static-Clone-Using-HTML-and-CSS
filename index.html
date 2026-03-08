@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>    <!--Navigation Bar (Navbar) starts-->
+        <div class="navbar">        <!--header 1 for Navbar-->
+            <div class="nav-logo">    <!--div for navbar logo-->
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-deliver border2">    <!-- div for "delievr to" segment starts-->
+                <p id="a1">Deliver to</p>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>   <!--location icon-->
+                    <p id="a2">India</p>
+                </div>
+            </div>                               <!-- div for "delievr to" segment ends-->
+            <div class="nav-search">            
+                <div id="dropdown">    <!--div for dropdown list of various shopping categories starts-->
+                    <select id="all">
+                    <option value="all_dept">All</option>
+                    <option value="art">Arts & Crafts</option>
+                    <option value="baby">Baby</option>
+                    <option value="beauty">Beauty & Personal Care</option>
+                    <option value="books">Books</option>
+                    <option value="boys">Boys' Fashion</option>
+                    <option value="computers">Computers</option>
+                    <option value="girls">Girls' Fashion</option>
+                    <option value="health">Health & Household</option>
+                    <option value="home">Home & Kitchen</option>
+                    <option value="Kindle">Kindle Store</option>
+                    <option value="men">Mens' Fashion</option>
+                    <option value="tv">Movies & TV</option>
+                    <option value="sport">Sports & Outdoors</option>
+                    <option value="toys">Toys & Games</option>
+                    <option value="women">Womens' Fashion</option>
+                </div>
+                </select>    <!--div for dropdown list of various shopping categories ends-->
+                <input type="text" id="searchBar" placeholder="Search Amazon">
+                <div class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>    <!--search icon-->
+                </div>
+            </div>
+
+            <div class="language border3">    <!--div for "language selection starts-->
+                <p id="en">EN</p>
+            </div>                            <!--div for "language selection ends-->
+
+            <div class="sign_in border4">     <!--"sign-in, accounts & lists" segment starts-->
+                <p id="msg">Hello, sign in</p>
+                <p id="lists">Account & Lists</p>
+            </div>                            <!--"sign-in, accounts & lists" segment ends-->
+
+            <div class="return_order border5">    <!--"returns & orders" segment starts-->
+                <p id="returns">Returns</p>
+                <p id="orders">& Orders</p>
+            </div>                                <!--"returns & orders" segment ends-->
+
+            <div class="items border6">    <!--"Cart" segment starts-->
+                <div id="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>    <!--cart icon-->
+                </div>
+                <p id="text_cart">Cart</p>
+            </div>                         <!--"Cart" segment ends-->
+        </div>
+    </header>    <!--Navigation Bar (Navbar) ends-->
+    
+    <header>                  <!--header 2 for Main Panel-->
+        <div id="main_panel">           <!--Main Panel starts here-->
+            <div class="panel">
+                <div id="menu">
+                <i class="fa-solid fa-bars"></i>    <!--menu icon-->
+                </div>
+                <p id="all2">All</p>
+            </div>
+            <div id="options">
+               <p id="td">Today's Deals</p>
+               <p id="prime">Prime Video</p>
+               <p id="reg">Registry</p>
+               <p id="gift">Gift Cards</p>
+               <p id="customer">Customer Service</p>
+               <p id="sell">Sell</p>
+            </div>
+            <div id="empty-div">
+            </div>
+        </div>                          
+    </header>                 <!--Main Panel ends here-->
+
+        <div class="hero_section">    <!--div for the hero section (photo + description) starts-->
+            <span id="description"><p><pre>                                             You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go on amazon.in</a></pre></p></span>
+        </div>                        <!--div for the hero section (photo + description) ends-->
+    
+        <div class="shop-section1">    <!--div for Shopping section 1 (1st row) starts-->
+
+            <div id="box1">    <!--div for "Affordable Watches" segment starts-->
+                <div id="watches">
+                <h2>Adorable Watches</h2>
+                </div>
+                <div id="watches-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Affordable Watches" segment ends-->
+
+            <div id="box2">    <!--div for "Branded beauty items" segment starts-->
+                <div id="beauty_products">
+                <h2>Branded beauty items</h2>
+                </div>
+                <div id="beauty-products-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Branded beauty items" segment ends-->
+
+            <div id="box3">    <!--div for "Latest home decor materials" segment starts-->
+                <div id="home_decor">
+                <h2>Latest home decor materials</h2>
+                </div>
+                <div id="home-decor-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>
+
+            <div id="box4">    <!--div for "Elevate your style" segment starts-->
+                <div id="dresses">
+                <h2>Elevate your style</h2>
+                </div>
+                <div id="dress-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Elevate your style" segment ends-->
+        </div>                         <!--div for Shopping section 1 (1st row) ends-->
+
+        <div id="space"></div>
+
+        <div class="shop-section2">    <!--div for Shopping section 2 (2nd row) starts-->
+            <div id="box5">    <!--div for "Upgrade your kitchen" segment starts-->
+                <div id="kitchen">
+                <h2>Upgrade your kitchen</h2>
+                </div>
+                <div id="kitchen-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Upgrade your kitchen" segment ends-->
+
+            <div id="box6">    <!--div for "Affordable stationaries" segment starts-->
+                <div id="stationeries">
+                <h2>Affordable stationaries</h2>
+                </div>
+                <div id="stationeries-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Affordable stationaries" segment ends-->
+
+            <div id="box7">    <!--div for "Pet Supplies & Care" segment starts-->
+                <div id="pets">
+                <h2>Pet Supplies & Care</h2>
+                </div>
+                <div id="pet-supply-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Pet Supplies & Care" segment ends-->
+
+            <div id="box8">    <!--div for "Tools you can trust" segement starts-->
+                <div id="tools">
+                <h2>Tools you can trust</h2>
+                </div>
+                <div id="tools-pic"></div>
+                <a id="explore">Explore more</a>
+            </div>             <!--div for "Tools you can trust segement" ends-->
+        </div>                         <!--div for Shopping section 2 (2nd row) ends-->
+
+        <hr>
+
+        <div id="sign-in">    <!--div for Sign up/in & for Personalized Experience starts-->
+            <div id="empty-area"></div>   <!--empty div for spacing-->
+            <h2 id="si">See personalized recommendations</h2>
+            <button><a id="si2">Sign in</a></button>
+            <p id="new">New customer? <a id="sh">Start here.</a></p>
+        </div>                <!--div for Sign up/in & for Personalized Experience ends-->
+
+        <hr>
+
+        <div id="empty-area2"></div>      <!--empty div for spacing-->
+
+        <footer>
+            <div id="back-to-top">Back to top</div>   <!--div for going from bottom to top of the page-->
+            <div id="footer-panel">   <!--Footer panel to include additional features of Amazon starts here-->
+                <div id="c-space"></div>
+                <div id="list1">    <!--Get to Know Us Section starts-->
+                    <ol>
+                        <h3>Get to Know Us</h3>
+                        <li><a class="listing">Careers</a></li>
+                        <li><a class="listing">Blog</a></li>
+                        <li><a class="listing">About Amazon</a></li>
+                        <li><a class="listing">Investor Realtions</a></li>
+                        <li><a class="listing">Amazon Devices</a></li>
+                        <li><a class="listing">Amazon Science</a></li>
+                    </ol>
+                </div>               <!--Get to Know Us Section ends-->
+
+                <div class="space"></div>    <!--div for spacing-->
+
+                <div id="list2">    <!--Amazon Payment Products Section starts-->
+                    <ol>
+                        <h3>Amazon Payment Products</h3>
+                        <li><a class="listing">Amazon Business Card</a></li>
+                        <li><a class="listing">Shop With Points</a></li>
+                        <li><a class="listing">Reload Your Balance</a></li>
+                        <li><a class="listing">Amazon Currency Converter</a></li>
+                    </ol>
+                </div>              <!--Amazon Payment Products Section ends-->
+
+                <div class="space"></div>    <!--div for spacing-->
+
+                <div id="list3">    <!--Let Us Help You Section starts-->
+                    <ol>
+                        <h3>Let Us Help You</h3>
+                        <li><a class="listing">Amazon & COVID-19</a></li>
+                        <li><a class="listing">Your Account</a></li>
+                        <li><a class="listing">Your Orders</a></li>
+                        <li><a class="listing">Shipping Rates & Policies</a></li>
+                        <li><a class="listing">Manage Your Device</a></li>
+                        <li><a class="listing">Manage Your Content</a></li>
+                        <li><a class="listing">Help</a></li>
+                    </ol>
+                </div>              <!--Let Us Help You Section ends-->
+                <div id="c-space2"></div>    <!--div for spacing-->
+                </div>
+                <hr>
+            </div>    <!--Footer panel to include additional features of Amazon ends here-->
+
+            <div id="logo-panel">    <!--Panel to place the Amazon logo starts-->
+                <span id="bottom-logo"></span>
+            </div>                   <!--Panel to place the Amazon logo ends-->
+
+            <div id="end-panel">    <!--End panel to include anchor tags for other vital inforation for using Amazon starts-->
+                <div id="pages">    <!--div for anchor tags starts-->
+                    <a class="page">Conditions of Use</a>
+                    <a class="page">Privacy Notice</a>
+                    <a class="page">Your Ads Privacy Choices</a>
+                </div>              <!--div for anchor tags ends-->
+                <div id="copyrights"><i class="fa-regular fa-copyright"></i> 1996-2025, Amazon.com, Inc. or its affiliates</div>    <!--div for Copyrights & Copyright icon-->
+            </div>                  <!--End panel to include anchor tags for other vital inforation for using Amazon starts-->
+        </footer>
