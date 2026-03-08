@@ -16,3 +16,5 @@ Points to note:-
 6. There is no doubt that today the Website's functionality and popularity is possible only because of thousands of Developers' Contributions.
 <br><br>
 7. The current goal is to make the website Responsive.
+<br><br>
+![Amazon Static Clone Project](https://github.com/user-attachments/assets/8ca715ff-486e-48f1-80cd-aefa1527d56f)
